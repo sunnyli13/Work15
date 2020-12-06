@@ -24,7 +24,7 @@ int main() {
 		printf("Child [%d] finished and woke up after %d seconds.\n\n", childpid, WEXITSTATUS(status));
 		printf("Parent finished\n");
 
-        return 0;
+		return 0;
 	}
 
 	else {
